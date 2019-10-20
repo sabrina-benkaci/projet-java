@@ -1,0 +1,21 @@
+TP2:
+/** makefile **/
+ 
+1- quand on retape la commade make dans le shell seule la derniere commande de compilation qui est executee car le fichier n'a pas ete modifie (make exécute les commandes seulement si elles sont nécessaires).
+
+2-Apres avoir modifier le fichier function.c et retaper la commande make dans le shell : on remarque que make a bien recompiler le fichier modifie.
+
+3-make clean permet de supprimer les fichier du type fichier.o et   l'executable.
+
+/** Makefile2 **/
+
+1-Quand on retape la commande make -f Makefile2 dans le shell :
+on nous affiche qu'il n'ya rien a faire pour l'executable example car yavait aucune modification sur le fichier.
+
+2-Apres avoir modifier le fichier function.c et retaper la commande make -f Makefile2 dans le shell : on remarque que make a bien recompiler le fichier modifie.
+
+3-la commande make -f Makefile2 clean permet de supprimer les fichier du type fichier.o et   l'executable.
+
+/** SCon **/
+
+1-
